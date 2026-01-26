@@ -10,6 +10,6 @@ public class NanGameTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "NanGame" } );
+		ExtraModuleNames.AddRange( new string[] { "NanGame", "GameplayTags"} );
 	}
 }
