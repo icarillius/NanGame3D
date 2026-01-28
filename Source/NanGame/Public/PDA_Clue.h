@@ -29,4 +29,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool isGameplayClue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float PictureVar;
 };

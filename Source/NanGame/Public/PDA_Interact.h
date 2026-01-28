@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "GameplayTagContainer.h"
 #include "PDA_Interact.generated.h"
 
 /**
@@ -28,4 +29,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FString> ClueSockets;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FGameplayTag NanFilm;
+
+
 };
