@@ -10,6 +10,7 @@
 /**
  * 
  */
+class UStaticMesh;
 UCLASS()
 class NANGAME_API UDA_Inspector : public UDataAsset
 {
@@ -23,7 +24,7 @@ class NANGAME_API UDA_Inspector : public UDataAsset
 		FString ObjectDescription;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UStaticMesh* InteractableObject = CreateDefaultSubobject<UStaticMesh>(TEXT("Mesh"));
+		UStaticMesh* InteractableObject;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector ScaleModifier;

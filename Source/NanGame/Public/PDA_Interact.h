@@ -10,6 +10,7 @@
 /**
  * 
  */
+class UStaticMesh;
 UCLASS()
 class NANGAME_API UPDA_Interact : public UPrimaryDataAsset
 {
@@ -22,7 +23,7 @@ public:
 	FString ObjectDescription;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UStaticMesh* InteractableObject = CreateDefaultSubobject<UStaticMesh>(TEXT("Mesh"));
+	UStaticMesh* InteractableObject;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector ScaleModifier;

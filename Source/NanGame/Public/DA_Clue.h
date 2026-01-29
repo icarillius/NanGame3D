@@ -9,6 +9,7 @@
 /**
  * 
  */
+class USoundCue;
 UCLASS()
 class NANGAME_API UDA_Clue : public UDataAsset
 {
