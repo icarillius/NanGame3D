@@ -9,6 +9,7 @@
 /**
  * 
  */
+class USoundCue;
 UCLASS()
 class NANGAME_API UPDA_Clue : public UPrimaryDataAsset
 {
@@ -25,7 +26,7 @@ public:
 	FString ClueDescription;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	USoundCue* Audiofile;
+	USoundCue *Audiofile;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool isGameplayClue;
