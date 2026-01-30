@@ -29,6 +29,9 @@ public:
 	FVector ScaleModifier;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FRotator RotationMod;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FString> ClueSockets;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
